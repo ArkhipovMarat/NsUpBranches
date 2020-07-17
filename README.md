@@ -5,20 +5,36 @@
 ## Описание проекта
 
 
-*NeuroStartUp* — динамически развивающийся стартап, специализирующийся на поиске с использованием новейших технологий искусственного интеллекта. Наши преимущества:
+Вы можете встроить NeuroStartUp в ваши приложения с помощью следующих сниппетов (кусочков) кода.
 
-* Высокая точность поиска
-* Высокая скорость поиска
-* Низкая цена
+```
+JavaScript:
 
-## Начало работы
-Небольшой набор инструкций, объясняющий, как получить копию этого проекта для запуска на локальном ПК.
+<script src="https://localhost/neuro.sdk.min.js"></script>
+Java (Maven):
 
-## Prerequisites
-Установите на ПК для использования Git, браузер.
+<dependency>
+  <groupId>neuro</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.0</version>
+</dependency>
+iOS (добавьте код в ваш Podfile):
 
-## Установка и запуск
-Пошаговый процесс установки и запуска
+platform :ios, '8.0'
+pod "neuro-ios-sdk"Вы можете встроить NeuroStartUp в ваши приложения с помощью следующих сниппетов (кусочков) кода.
 
-## Лицензия
-Все права защищены, лицензия **№Netology.ru-2020**
+JavaScript:
+
+<script src="https://localhost/neuro.sdk.min.js"></script>
+Java (Maven):
+
+<dependency>
+  <groupId>neuro</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.0</version>
+</dependency>
+iOS (добавьте код в ваш Podfile):
+
+platform :ios, '8.0'
+pod "neuro-ios-sdk"
+```
